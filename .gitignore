@@ -1,0 +1,51 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# Django migrations
+*/migrations/
+
+# Django static files
+/static/
+
+# Database files
+*.sqlite3
+*.db
+
+# IDE or editor-specific files (e.g., VS Code, PyCharm)
+.vscode/
+.idea/
+
+# macOS-specific files
+.DS_Store
+
+# Log files
+*.log
+
+# Environment variable files
+.env
+
+# Test and coverage files
+.coverage
+*.cover
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# Django secret key file (if you have it in a separate file)
+secret_key.txt
+
+# Local settings (if you have them)
+local_settings.py
+
+# Other common ignore files
+*.bak
+*.swp
